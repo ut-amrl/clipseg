@@ -23,12 +23,12 @@ model.load_state_dict(
 )
 
 # load and normalize image
-input_image = Image.open("assets/campus1.jpeg")
-prompts = [
-    "people",
-    "lampposts",
-    "bricks",
-]
+# input_image = Image.open("assets/campus1.jpeg")
+# prompts = [
+#     "people",
+#     "lampposts",
+#     "bricks",
+# ]
 
 # input_image = Image.open("assets/campus2.jpg")
 # prompts = [
@@ -71,18 +71,28 @@ prompts = [
 # prompts = ["left hand", "right hand"]
 
 # input_image = Image.open("assets/coda1.png")
+# prompts = ["people", "cars", "trees", "bikes"]
+
+# input_image = Image.open("assets/coda1.png")
 # prompts = [
-#     "cars",
-#     "occluded cars",
+#     "people",
+#     "people riding scooters",
+#     "scooters",
 # ]
 
 # input_image = Image.open("assets/coda1.png")
 # prompts = [
 #     "people",
-#     "a person with yellow shirt",
 #     "people wearing jeans",
 #     "the person closest to camera",
 # ]
+
+input_image = Image.open("assets/coda1.png")
+prompts = [
+    "people",
+    "people with yellow shirts",
+    "people with white shirts",
+]
 
 tdim = 512
 
