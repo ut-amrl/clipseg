@@ -70,6 +70,20 @@ prompts = [
 # input_image = Image.open("assets/hands1.jpeg")
 # prompts = ["left hand", "right hand"]
 
+# input_image = Image.open("assets/coda1.png")
+# prompts = [
+#     "cars",
+#     "occluded cars",
+# ]
+
+# input_image = Image.open("assets/coda1.png")
+# prompts = [
+#     "people",
+#     "a person with yellow shirt",
+#     "people wearing jeans",
+#     "the person closest to camera",
+# ]
+
 tdim = 512
 
 transform = transforms.Compose(
